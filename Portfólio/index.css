@@ -1,0 +1,111 @@
+body {
+    color: white;
+    background: linear-gradient(to right,#00388b, #160555);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+ul{
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+align-items: center;
+padding: 16px;    
+}
+a{
+    color: peachpuff;
+    text-decoration: none;
+    font-size: 25px;
+}
+footer img{
+    width: 800px;
+    height: 400px;
+    border-radius: 0px;
+    border: 5px solid royalblue;
+}
+img {
+    width: 320px;
+    height: 500px;
+    border-radius: 5%;
+    border: 5px solid royalblue;
+}
+.center{
+    text-align: center;
+}
+h1{
+    color:palevioletred;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-text-stroke-width: 1px;/* largura da borda*/
+    -webkit-text-stroke-color:black;/*cor da borda*/
+}
+h2{
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+}
+h3 {
+    font-size: 25px;
+    color:palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+h4 {
+    color:cornflowerblue;
+    text-align: none;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h5 {
+    font-size: 25px;
+    color:palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
+}
+nav a:hover{
+    color: palevioletred;
+}
+:root {
+    --color-dark: #e2a2a2;
+    --color-white: #ebc7c7;
+    --color-light: #db7575;
+}
+.clock {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-height: 1vh;
+    gap: 10px;
+    justify-content: center;
+}
+.clock span {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.clock span:not(:last-child)::after {
+    content: ':';
+    margin-bottom: 20px;
+    color: var(--color-dark)
+}
+.date{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.date span{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.date span:not(:last-child)::after{
+    content: '/';
+    margin-bottom: 6px;
+    color: var(--color-dark);
+}
